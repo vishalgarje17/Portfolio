@@ -45,8 +45,10 @@ const Home = () => (
         <span className={style.btn}>
           Check out my work
         </span>
+
         <MdOutlineArrowForwardIos className={style.arrow} />
       </motion.button>
+      
     </div>
   </motion.section>
 );
