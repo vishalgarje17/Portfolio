@@ -13,21 +13,21 @@ const Home = () => (
   >
     <div className={style.container}>
       <p className={style.intro}>
-        Hi, I&apos;m
+        Hello, I&apos;m
         {' '}
         <motion.span variants={fadeIn('', '', 0.1, 1)} className={style.name}>
-          Kaung Myat Kyaw
+         Vishal Garje
         </motion.span>
       </p>
       <p className={style.intro}>
-        Also known as
+       
         {' '}
         <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
-          Barry
+         
         </motion.span>
       </p>
       <motion.p variants={fadeIn('', '', 0.5, 1)} className={style.desc}>
-        I am a full-stack web developer
+        I am a Software Developer
       </motion.p>
       <motion.button
         variants={fadeIn('', '', 0.6, 1)}
